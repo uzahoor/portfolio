@@ -1,0 +1,29 @@
+/* Fixed height for the Udacity logo, kept the name generic so can be changed 
+to something other than the Udacity logo */
+.logo {
+    height: 96px;
+}
+
+/* Some text formatting and spacing for the 'featured work' subheading */
+.featured-work-title {
+    margin-top: 15px;
+    color: gray;
+    font-size: 2.5rem;
+}
+
+/* Add some spacing to the cards and make them all uqaul height */
+.work-card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+/* Make all the work cards images the same height */
+.card-img-top {
+    max-height: 210px;
+}
+
+/* Add some text formating to the description of the work */
+.card-text {
+    color: gray;
+}
