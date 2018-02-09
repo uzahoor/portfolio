@@ -13,17 +13,16 @@ to something other than the Udacity logo */
 
 /* Add some spacing to the cards and make them all uqaul height */
 .work-card {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 15px 0px 15px 0px;
     height: 100%;
-}
-
-/* Make all the work cards images the same height */
-.card-img-top {
-    max-height: 210px;
 }
 
 /* Add some text formating to the description of the work */
 .card-text {
     color: gray;
+}
+
+/* Make html image responsive */
+.html-code-img {
+    width: 100%;
 }
